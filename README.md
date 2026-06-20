@@ -1,6 +1,6 @@
 # World Cup 2026 App
 
-An Android app for following the FIFA World Cup 2026 — live scores, group standings, top scorers, team info, favorites, and community score predictions.
+An Android app for following the FIFA World Cup 2026 - live scores, group standings, top scorers, team info, favorites, and community score predictions.
 
 ## Setup Instructions
 
@@ -50,12 +50,12 @@ app/
 ```
 
 ## Features
-- Live match scores & results — live matches surface first on the Home screen
+- Live match scores & results - live matches surface first on the Home screen
 - Group stage standings (by group, and overall) with ★ favorites
 - Top scorers leaderboard
 - All 48 teams with details & search
 - Favorites list (Room) with swipe-to-delete
-- **Score predictions (Firebase Firestore)** — predict the outcome of upcoming matches and see real-time community predictions; locked once a match starts
+- **Score predictions (Firebase Firestore)** - predict the outcome of upcoming matches and see real-time community predictions; locked once a match starts
 - Dark mode
 - Background auto-sync (WorkManager, every 3 hours) with result notifications
 - Full Hebrew + English localization (follows device language automatically)
@@ -72,7 +72,7 @@ User-submitted match predictions are stored in **Firestore**, separate from the 
 
 ## Architecture
 MVVM with a single shared `WorldCupViewModel` across all fragments, backed by two repositories:
-- `WorldCupRepository` — Retrofit + Room (tournament data)
-- `PredictionRepository` — Firebase Firestore (user predictions)
+- `WorldCupRepository` - Retrofit + Room (tournament data)
+- `PredictionRepository` - Firebase Firestore (user predictions)
 
 Dependency injection via Hilt throughout.
