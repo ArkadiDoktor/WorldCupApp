@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.worldcup.app.ui.fragments.HomeFragment"
+        android:label="@string/nav_home" />
+
+    <fragment
+        android:id="@+id/matchesFragment"
+        android:name="com.worldcup.app.ui.fragments.MatchesFragment"
+        android:label="@string/nav_matches" />
+
+    <fragment
+        android:id="@+id/standingsFragment"
+        android:name="com.worldcup.app.ui.fragments.StandingsFragment"
+        android:label="@string/nav_standings" />
+
+    <fragment
+        android:id="@+id/scorersFragment"
+        android:name="com.worldcup.app.ui.fragments.ScorersFragment"
+        android:label="@string/nav_scorers" />
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.worldcup.app.ui.fragments.FavoritesFragment"
+        android:label="@string/nav_favorites" />
+
+    <fragment
+        android:id="@+id/teamsFragment"
+        android:name="com.worldcup.app.ui.fragments.TeamsFragment"
+        android:label="@string/nav_teams" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.worldcup.app.ui.fragments.SettingsFragment"
+        android:label="@string/nav_settings" />
+
+</navigation>

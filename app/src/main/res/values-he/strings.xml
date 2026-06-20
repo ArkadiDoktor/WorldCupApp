@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">מונדיאל 2026</string>
+
+    <string name="nav_home">בית</string>
+    <string name="nav_matches">משחקים</string>
+    <string name="nav_standings">טבלה</string>
+    <string name="nav_scorers">כובשים</string>
+    <string name="nav_favorites">מועדפים</string>
+    <string name="nav_teams">קבוצות</string>
+    <string name="nav_settings">הגדרות</string>
+
+    <string name="world_cup_2026">גביע העולם 2026™</string>
+    <string name="canada_usa_mexico">קנדה · ארה\"ב · מקסיקו</string>
+    <string name="live_count">%d בשידור חי</string>
+    <string name="live_placeholder">בשידור חי</string>
+    <string name="matches_played">משחקים שהסתיימו: %d</string>
+    <string name="matches_played_placeholder">טוען…</string>
+    <string name="teams_count">48 קבוצות</string>
+    <string name="upcoming_matches">משחקים קרובים</string>
+    <string name="no_upcoming_matches">אין משחקים קרובים</string>
+
+    <string name="tab_all">הכל</string>
+    <string name="tab_live">חי</string>
+    <string name="tab_upcoming">קרוב</string>
+    <string name="tab_finished">הסתיים</string>
+    <string name="no_matches_found">לא נמצאו משחקים</string>
+
+    <string name="status_finished">הסתיים</string>
+    <string name="status_live">חי</string>
+    <string name="status_scheduled">מתוכנן</string>
+    <string name="tbd">לא ידוע</string>
+
+    <string name="header_team">קבוצה</string>
+    <string name="add_to_favorites">הוסף למועדפים</string>
+
+    <string name="no_scorers_yet">אין נתוני כובשים עדיין</string>
+    <string name="goals_label">שערים</string>
+    <string name="assists_label">בישולים</string>
+
+    <string name="no_favorites_title">אין מועדפים עדיין</string>
+    <string name="no_favorites_hint">עבור לטבלה ולחץ ★ להוספת קבוצה</string>
+    <string name="remove_favorite_title">הסר מועדף</string>
+    <string name="remove_favorite_message">להסיר את %s מהמועדפים?</string>
+    <string name="remove">הסר</string>
+    <string name="cancel">ביטול</string>
+    <string name="remove_favorite">הסר מועדף</string>
+    <string name="no_group">ללא קבוצה</string>
+    <string name="points_format">%d נקודות</string>
+    <string name="record_format">נ%d ת%d ה%d</string>
+    <string name="goals_format">שערים %d · ספג %d</string>
+
+    <string name="no_teams_found">לא נמצאו קבוצות</string>
+    <string name="unknown_venue">אצטדיון לא ידוע</string>
+    <string name="unknown">לא ידוע</string>
+    <string name="unknown_coach">מאמן לא ידוע</string>
+    <string name="founded">הוקמה</string>
+    <string name="venue">אצטדיון</string>
+    <string name="colors">צבעים</string>
+    <string name="coach">מאמן</string>
+    <string name="ok">אישור</string>
+
+    <string name="settings_appearance">מראה</string>
+    <string name="settings_notifications">סנכרון ברקע</string>
+    <string name="dark_mode">מצב לילה</string>
+    <string name="background_sync">סנכרון אוטומטי</string>
+    <string name="background_sync_desc">עדכון תוצאות כל 3 שעות</string>
+    <string name="sync_now">סנכרן עכשיו</string>
+    <string name="sync_started">סנכרון התחיל…</string>
+    <string name="notifications_enabled">התראות הופעלו</string>
+    <string name="notifications_disabled">התראות כובו</string>
+    <string name="notifications_denied">הרשאת התראות נדחתה</string>
+    <string name="version_format">גרסה %s</string>
+    <string name="permission_required">נדרשת הרשאה</string>
+    <string name="notification_permission_rationale">אנחנו צריכים הרשאת התראות כדי לעדכן אותך על תוצאות משחקים.</string>
+    <string name="grant">אשר</string>
+
+    <string name="notification_channel_name">עדכוני מונדיאל</string>
+    <string name="notification_title">מונדיאל 2026</string>
+    <string name="notification_text">תוצאות משחקים חדשות זמינות!</string>
+
+    <string name="home_team_crest">סמל קבוצת הבית</string>
+    <string name="away_team_crest">סמל קבוצת האורחים</string>
+    <string name="team_crest">סמל קבוצה</string>
+
+    <string name="error_loading_data">טעינת הנתונים נכשלה. בדוק את החיבור לאינטרנט.</string>
+    <string name="error_no_internet">אין חיבור לאינטרנט</string>
+    <string name="teams_count_dynamic">%d קבוצות</string>
+    <string name="tab_groups">בתים</string>
+    <string name="tab_overall">כולל</string>    <string name="predict_button">ניחוש תוצאה</string>
+    <string name="predict_dialog_title">ניחוש התוצאה</string>
+    <string name="your_name_hint">השם שלך (לא חובה)</string>
+    <string name="community_predictions">ניחושי הקהילה</string>
+    <string name="no_predictions_yet">אין ניחושים עדיין. תהיה הראשון!</string>
+    <string name="submit_prediction">שלח</string>
+    <string name="prediction_submitted">הניחוש נשלח!</string>
+    <string name="prediction_failed">שליחת הניחוש נכשלה</string>
+
+</resources>

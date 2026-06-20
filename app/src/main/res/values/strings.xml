@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">World Cup 2026</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_matches">Matches</string>
+    <string name="nav_standings">Standings</string>
+    <string name="nav_scorers">Scorers</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="nav_teams">Teams</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home -->
+    <string name="world_cup_2026">FIFA World Cup 2026™</string>
+    <string name="canada_usa_mexico">Canada · USA · Mexico</string>
+    <string name="live_count">%d LIVE</string>
+    <string name="live_placeholder">LIVE</string>
+    <string name="matches_played">Matches played: %d</string>
+    <string name="matches_played_placeholder">Loading…</string>
+    <string name="teams_count">48 Teams</string>
+    <string name="upcoming_matches">Upcoming Matches</string>
+    <string name="no_upcoming_matches">No upcoming matches</string>
+
+    <!-- Matches -->
+    <string name="tab_all">All</string>
+    <string name="tab_live">Live</string>
+    <string name="tab_upcoming">Upcoming</string>
+    <string name="tab_finished">Finished</string>
+    <string name="no_matches_found">No matches found</string>
+
+    <!-- Status -->
+    <string name="status_finished">FT</string>
+    <string name="status_live">LIVE</string>
+    <string name="status_scheduled">Scheduled</string>
+    <string name="tbd">TBD</string>
+
+    <!-- Standings -->
+    <string name="header_team">Team</string>
+    <string name="add_to_favorites">Add to favorites</string>
+
+    <!-- Scorers -->
+    <string name="no_scorers_yet">No scorers data yet</string>
+    <string name="goals_label">Goals</string>
+    <string name="assists_label">Ast</string>
+
+    <!-- Favorites -->
+    <string name="no_favorites_title">No Favorites Yet</string>
+    <string name="no_favorites_hint">Go to Standings and tap ★ to add a team</string>
+    <string name="remove_favorite_title">Remove Favorite</string>
+    <string name="remove_favorite_message">Remove %s from favorites?</string>
+    <string name="remove">Remove</string>
+    <string name="cancel">Cancel</string>
+    <string name="remove_favorite">Remove favorite</string>
+    <string name="no_group">No group</string>
+    <string name="points_format">%d pts</string>
+    <string name="record_format">W%d D%d L%d</string>
+    <string name="goals_format">GF %d · GA %d</string>
+
+    <!-- Teams -->
+    <string name="no_teams_found">No teams found</string>
+    <string name="unknown_venue">Unknown venue</string>
+    <string name="unknown">Unknown</string>
+    <string name="unknown_coach">Unknown coach</string>
+    <string name="founded">Founded</string>
+    <string name="venue">Venue</string>
+    <string name="colors">Colors</string>
+    <string name="coach">Coach</string>
+    <string name="ok">OK</string>
+
+    <!-- Settings -->
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_notifications">Background Sync</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="background_sync">Auto Sync</string>
+    <string name="background_sync_desc">Update results every 3 hours</string>
+    <string name="sync_now">Sync Now</string>
+    <string name="sync_started">Sync started…</string>
+    <string name="notifications_enabled">Notifications enabled</string>
+    <string name="notifications_disabled">Notifications disabled</string>
+    <string name="notifications_denied">Notification permission denied</string>
+    <string name="version_format">Version %s</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="notification_permission_rationale">We need notification permission to alert you about match results.</string>
+    <string name="grant">Grant</string>
+
+    <!-- WorkManager notifications -->
+    <string name="notification_channel_name">World Cup Updates</string>
+    <string name="notification_title">World Cup 2026</string>
+    <string name="notification_text">New match results available!</string>
+
+    <!-- Accessibility -->
+    <string name="home_team_crest">Home team crest</string>
+    <string name="away_team_crest">Away team crest</string>
+    <string name="team_crest">Team crest</string>
+
+    <!-- Errors -->
+    <string name="error_loading_data">Failed to load data. Check your internet connection.</string>
+    <string name="error_no_internet">No internet connection</string>
+    <string name="teams_count_dynamic">%d Teams</string>
+    <string name="tab_groups">Groups</string>
+    <string name="tab_overall">Overall</string>    <!-- Predictions (Firebase bonus feature) -->
+    <string name="predict_button">Predict Score</string>
+    <string name="predict_dialog_title">Predict the Score</string>
+    <string name="your_name_hint">Your name (optional)</string>
+    <string name="community_predictions">Community Predictions</string>
+    <string name="no_predictions_yet">No predictions yet. Be the first!</string>
+    <string name="submit_prediction">Submit</string>
+    <string name="prediction_submitted">Prediction submitted!</string>
+    <string name="prediction_failed">Failed to submit prediction</string>
+
+</resources>
